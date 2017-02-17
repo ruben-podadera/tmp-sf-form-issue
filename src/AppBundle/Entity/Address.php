@@ -8,7 +8,7 @@ class Address
 {
     protected $id;
 
-    /*
+    /**
      * @Assert\NotBlank()
      */
     protected $zipCode;

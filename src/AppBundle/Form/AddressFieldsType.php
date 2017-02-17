@@ -16,7 +16,7 @@ class AddressFieldsType extends AbstractType{
 
         $builder
             ->add('zipCode', TextType::class, [
-                'constraints' => [new NotBlank()]
+                //'constraints' => [new NotBlank()]
             ]);
     }
 
