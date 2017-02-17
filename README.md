@@ -44,7 +44,9 @@ address[address_fields][zipCode]:
 ```
 
 I get this :
-OK
+![](http://i.imgur.com/Ae5FjHPm.png)
+
+-> This is correct, the constraint error is located next to the field causing the error
 
 Issue:
 ------
@@ -91,4 +93,6 @@ address[address_fields][zipCode]:
 ```
 
 I get this :
-NOK
+![](http://i.imgur.com/FZ7zW1wm.png)
+
+-> not correct, the constraint error is on top of the form
